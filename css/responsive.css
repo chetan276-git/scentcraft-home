@@ -1,0 +1,476 @@
+@media only screen and (max-width:768px){
+    h2{
+        font-size: 26px;
+        line-height: 28px!important;
+    }
+    h3{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    .mv-d-none{
+        display: none;
+    }
+    .mv-p-relative{
+        position: relative;
+    }
+    .mv-p-absolute{
+        position: absolute;
+        top: 0;
+        width: 50%;
+    }
+    .left-0{
+        left: 0;
+    }
+    .right-0{
+        right: 0;
+    }
+    .mt-138{
+        margin-top: 20px;
+    }
+    .pt-237{
+        padding-top: 105px;
+    }
+    .pb-237{
+        padding-bottom: 105px;
+    }
+    .mt-97{
+        margin-top: 50px;
+    }
+    .w-50-pl-30{
+        width: 100%;
+        padding-left: 0;
+    }
+    .w-50-pr-30{
+        width: 100%;
+        padding-right: 0;
+    }
+    .w100-320{
+        width: 100%!important;
+    }
+    .mv-txt-center{
+        text-align: center!important;
+    }
+    .mv-txt-right{
+        text-align: right!important;
+    }
+    button, .button{
+        min-width: 193px!important;
+        padding: 15px 0px;
+        font-size: 11px;
+    }
+    .container-fluid-manual {
+        padding: 0px 20px!important;
+    }
+    #step-one .container-fluid-manual::after, #toolbox-financial .container-fluid-manual::after {
+        width: 20px;
+        height: 20px;
+        left: -11px;
+    }
+    .common-content-wrapper:after{
+        width: 20px;
+        height: 20px;
+        left: -30px;
+    }
+    #step-one .left-widget img{
+        width:38px;
+        height: 52px;
+    }
+    #step-one .middle-widget {
+        margin-top: 80px;
+    }
+    .flex-wrapper {
+        flex-direction: column!important;
+    }
+    .wave-bottom,.wave-top {
+        height: 60px;
+    }
+    .video-wrapper {
+        width: 100%;
+        margin:25px 0;
+    }
+    #checkbox-circle{
+        width: 28px;
+        height: 28px;
+        margin-right: 5px;
+    }
+/*********Header ************/
+header .title h1 {
+    font: bold 28px "NexaBold";
+    line-height: 28px;
+    width: 225px;
+    margin: 0  auto;
+}
+header .title h1:before {
+    right: -45px;
+    top: 10px;
+    width: 40px;
+    height: 58px;
+}
+header .title h1:after {
+    left: -45px;
+    top: 10px;
+    width: 40px;
+    height: 58px;
+}
+/*************Step 2 and 3 *************/
+    #step-two-three .grid-wrap .content-widget .para-one,#step-two-three .grid-wrap .content-widget .para-two {
+        margin: 10px 0;
+    }
+    #step-two-three .step-two-content {
+        padding-left: 0px;
+    }
+    .step-two-content{
+        margin-top: 10px;
+    }
+    #step-two-three .grid-wrap .mv-img {
+        height: 300px;
+        margin-top: 60px;
+    }
+    #step-two-three .circle-checkbox{
+        text-align: right;
+    }
+    .step-three .status{
+        order: 1;
+        text-align: right;
+    }
+    .step-three .content{
+        order: 2;
+        text-align: center;
+    }
+    #step-four-five .para-two {
+        margin: 10px 0 30px 0;
+    }
+    #step-four-five .status{
+        order: 1;
+        text-align: right;
+    }
+    #step-four-five .content-widget{
+        order: 2;
+    }
+    #step-four-five .circle-checkbox{
+        text-align: right;
+    }
+    #step-four-five::after{
+        display: none;
+    }
+    #step-four-five .m-view{
+        display: block;
+    }
+    .step-four .button{
+        margin-top: 30px;
+    }
+    
+    #toolbox-financial .img-widget img {
+        height: auto;
+        order: 5;
+    }
+    #toolbox-financial p {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    #toolbox-financial .status-toolbox{
+        order: -2;
+    }
+    #toolbox-financial .toolbox-content{
+        order: -1;
+    }
+    #toolbox-financial .img-widget{
+        order: 3;
+    }
+    .result-status{
+        order: -1;
+    }
+    .title-paragraph{
+        order: -2;
+    }
+    #toolbox-financial .toolbox-wrapper .button{
+        margin-top: 20px;
+    }
+    footer{
+        padding: 100px 0 20px 0;
+    }
+    footer .logo-widget img {
+        width: 177px;
+        height: auto;
+    }
+    .logo-widget p {
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    h2{
+        font-size: 36px;
+        line-height: 36px!important;
+    }
+    h3{
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    .mv-d-none{
+        display: none;
+    }
+    .mv-p-relative{
+        position: relative;
+    }
+    .mv-p-absolute{
+        position: absolute;
+        top: 0;
+        width: 50%;
+    }
+    .left-0{
+        left: 0;
+    }
+    .right-0{
+        right: 0;
+    }
+    .mt-138{
+        margin-top: 20px;
+    }
+    .pt-237{
+        padding-top: 105px;
+    }
+    .pb-237{
+        padding-bottom: 105px;
+    }
+    .mt-97{
+        margin-top: 50px;
+    }
+    .w-50-pl-30{
+        width: 100%;
+        padding-left: 0;
+    }
+    .w-50-pr-30{
+        width: 100%;
+        padding-right: 0;
+    }
+    .w100-320{
+        width: 100%!important;
+    }
+    .mv-txt-center{
+        text-align: center!important;
+    }
+    .mv-txt-right{
+        text-align: right!important;
+    }
+    button, .button{
+        min-width: 193px!important;
+        padding: 15px 0px;
+        font-size: 11px;
+    }
+    .container-fluid-manual {
+        padding: 0px 40px!important;
+    }
+    .flex-wrapper {
+        flex-direction: column!important;
+    }
+    .wave-bottom,.wave-top {
+        height: 60px;
+    }
+    #checkbox-circle{
+        width: 28px;
+        height: 28px;
+        margin-right: 20px;
+    }
+    .common-content-wrapper:after{
+        width: 30px;
+        height: 30px;
+        left: -56px;
+    }
+
+/*********Header ************/
+header .title h1 {
+    font: bold 42px "NexaBold";
+    line-height: 42px;
+    width: 500px;
+    margin: 0  auto;
+}
+header .title h1:before {
+    right: -45px;
+    top: 10px;
+    width: 40px;
+    height: 58px;
+}
+header .title h1:after {
+    left: -45px;
+    top: 10px;
+    width: 40px;
+    height: 58px;
+}
+/**********Step one ************/
+#step-one .container-fluid-manual::after, #toolbox-financial .container-fluid-manual::after {
+    width: 30px;
+    height: 30px;
+    left: -16px;
+}
+#step-one .left-widget img{
+    width:48px;
+    height: 62px;
+}
+#step-one .middle-widget {
+    margin-top: 80px;
+}
+/*************Step 2 and 3 *************/
+    #step-two-three .grid-wrap .content-widget .para-one,#step-two-three .grid-wrap .content-widget .para-two {
+        margin: 10px 0;
+    }
+    #step-two-three .step-two-content {
+        padding-left: 0px;
+    }
+    .step-two-content{
+        margin-top: 10px;
+    }
+    #step-two-three .grid-wrap .mv-img {
+        height: 300px;
+        margin-top: 60px;
+    }
+    #step-two-three .circle-checkbox{
+        text-align: right;
+    }
+    .step-three .status{
+        order: 1;
+        text-align: right;
+    }
+    .step-three .content{
+        order: 2;
+        text-align: center;
+    }
+    #step-four-five .para-two {
+        margin: 10px 0 30px 0;
+    }
+    #step-four-five .status{
+        order: 1;
+        text-align: right;
+    }
+    #step-four-five .content-widget{
+        order: 2;
+    }
+    #step-four-five .circle-checkbox{
+        text-align: right;
+    }
+    #step-four-five::after{
+        display: none;
+    }
+    #step-four-five .m-view{
+        display: block;
+    }
+    .step-four .button{
+        margin-top: 30px;
+    }
+    
+    #toolbox-financial .img-widget img {
+        height: auto;
+        order: 5;
+    }
+    #toolbox-financial p {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    #toolbox-financial .status-toolbox{
+        order: -2;
+    }
+    #toolbox-financial .toolbox-content{
+        order: -1;
+    }
+    #toolbox-financial .img-widget{
+        order: 3;
+    }
+    .result-status{
+        order: -1;
+    }
+    .title-paragraph{
+        order: -2;
+    }
+    #toolbox-financial .toolbox-wrapper .button{
+        margin-top: 20px;
+    }
+    footer{
+        padding: 100px 0 20px 0;
+    }
+    footer .logo-widget img {
+        width: 177px;
+        height: auto;
+    }
+    .logo-widget p {
+        margin-top: 8px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1300px){
+    h2 {
+        font: 700 36px "NexaBold";
+        line-height: 38px;
+    }
+    .container-fluid-manual{
+        width: 90%;
+    }
+    #step-one .middle-widget{
+        padding: 0 15px;
+    }
+    #step-two-three .step-two-content {
+        padding-left: 0px;
+        width: 100%;
+        margin: 25px 0;
+        text-align: center;
+    }
+    #step-two-three .grid-wrap .status {
+        width: 100%;
+        right: 0;
+        text-align: right;
+    }
+    #step-two-three .grid-wrap #checkbox-circle{
+        margin-right: 15px;
+    }
+    #step-two-three .flex-wrapper {
+        flex-direction: column;
+    }
+    #step-two-three .w-50-pr-30 {
+        width: 100%;
+        padding-right: 0;
+    }
+    #step-two-three .w-50-pl-30 {
+        width: 100%;
+        padding-left: 0;
+    }
+    #step-two-three .grid-wrap .flex-wrapper {
+        flex-direction: column;
+    }
+    #step-two-three .mt-138 {
+        margin-top: 25px;
+    }
+    .step-three img{
+        display: none;
+    }
+    .step-three .w-80{
+        width: 100%;
+    }
+    .step-three .content-widget .text-left {
+        text-align: center!important;
+    }
+    .step-three .status{
+        order: -1;
+    }
+    #toolbox-financial p {
+        font-size: 17px;
+        margin: 25px 15px 25px 0;
+    }
+    footer{
+        padding: 190px 0 20px 0;
+    }
+    footer .logo-widget img {
+        width: 177px;
+        height: auto;
+    }
+    .logo-widget p {
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,367 @@
+.common-content-wrapper{
+    position: relative;
+    z-index: 2;
+}
+.common-content-wrapper:after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #436169;
+    position: absolute;
+    left: -126px;
+    top: 0;
+}
+.wave-bottom{
+    width: 100%;
+    height: 137px;
+    position: absolute;
+    z-index: -1;
+    bottom:-3px;
+    left: 0;
+    right: 0;
+    background-size: cover!important;
+}
+.wave-top{
+    width: 100%;
+    height: 137px;
+    position: absolute;
+    z-index: -1;
+    top:-3px;
+    left: 0;
+    right: 0;
+    background-size: cover!important;
+}
+/*************Header Start **********/
+header{
+    width: 100%;
+    height: 100%;
+    background: url('../images/whitewaterbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header .logo, header .title{
+    width: 100%;
+    text-align: center;
+}
+header nav{
+    width: 100%;
+    height: 137px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 80px;
+}
+header nav:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url('../images/waves.png');
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    position: absolute;
+    z-index: -1;
+}
+header .logo{
+    padding: 33px 0 40px 0;
+}
+header .logo img{
+    width: 270px;
+    height: 22.86px;
+}
+header .logo, header .title h1{
+    color: #436169;
+    font: bold 60px "NexaBold";
+    line-height: 60px;
+    position: relative;
+}
+header .title h1:after{
+    content: '';
+    width: 75px;
+    height: 96px;
+    background: url('../images/title-design.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    left: 15%;
+    top: 30%;
+    position: absolute;
+}
+header .title h1:before{
+    content: '';
+    width: 75px;
+    height: 96px;
+    background: url('../images/title-design.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    right: 15%;
+    top: 30%;
+    position: absolute;
+}
+/********Video wrapper*******/
+.video-wrapper {
+    width:85%;
+    height:70vh;
+    overflow: hidden;
+    margin: 40px auto 116px auto;
+}
+video {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+  /*****************Radio Button **********/
+  .circle-checkbox{
+      width: 100%;
+  }
+  .checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: transparent;
+    border: 2px solid #436169;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    background: transparent;
+    color: #436169;
+    font-size: 46px;
+    font-weight: 100!important;
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+#checkbox-circle{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10000;
+}
+#checkbox-circle img{
+    cursor: pointer;
+}
+#checkbox-circle #over-arrow{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: none;
+}
+.dis-block{
+    display: block!important;
+}
+.dis-none{
+    display: none!important;
+}
+/*********Step one*************/
+#step-one{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    display: table;
+    color: #436169;
+}
+#step-one .container-fluid-manual::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #436169;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+.middle-widget p{
+    margin-top: 20px;
+}
+.middle-widget .button{
+    background: #436169;
+    color: #fff;
+    margin-top: 40px;
+}
+/************Step two or thre***********/
+#step-two-three{
+    background: #99BAC1;
+    position: relative;
+    z-index: 1;
+    color: #436169;
+}
+#step-two-three p{
+    line-height: 26px;
+}
+#step-two-three .step-two-content{
+    padding-left: 45px;
+}
+#step-two-three .button{
+    margin-top: 20px;
+    background: #fff;
+    color: #436169;
+}
+#step-two-three .grid-wrap .main-img img{
+    height: 374px;
+    width: 100%;
+}
+#step-two-three .grid-wrap .content-widget .para-one{
+    margin:10px 0 0 80px;
+}
+#step-two-three .grid-wrap .content-widget .para-two{
+    margin:10px 80px 0 0;
+}
+/*********************Step four or five ***************/
+#step-four-five{
+    width: 100%;
+    height: auto;
+    background: #EFE3D5;
+    position: relative;
+    z-index: 1;
+    color: #436169;
+}
+#step-four-five::after{
+    content: '';
+    width: 47%;
+    height: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -3;
+    background: url('../images/step45.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+}
+#step-four-five p{
+    margin: 10px 0 30px 0;
+}
+#step-four-five .m-view{
+    display: none;
+}
+#step-four-five .para-two{
+    margin:10px 80px 30px 0;
+}
+#step-four-five .button{
+    color: #fff;
+}
+/********************* toolbox css start ***********/
+#toolbox-financial{
+    width: 100%;
+    height: auto;
+    background: #C0A197;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+}
+#toolbox-financial::after{
+    content: '';
+    width: 10%;
+    height: 300px;
+    background: #C0A197;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#toolbox-financial .container-fluid-manual{
+    position: relative;
+    z-index: 1;
+}
+#toolbox-financial .container-fluid-manual::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #436169;
+    position: absolute;
+    left: -25px;
+    bottom: 300px;
+}
+#toolbox-financial .checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    border: 2px solid #fff;
+}
+#toolbox-financial .button{
+    background: #fff;
+    color: #C0A197;
+}
+#toolbox-financial p{
+    font-size: 19px;
+    margin: 25px 80px 25px 0;
+}
+#toolbox-financial .img-widget img{
+    height: 610px;
+}
+#toolbox-financial .second-content{
+    margin-top: 50px;
+}
+#toolbox-financial .second-content h6{ 
+    margin: 20px 0;
+    font-size: 14px;
+}
+#toolbox-financial .second-content h5{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+} 
+#toolbox-financial #checkbox-circle img{
+    filter: brightness(10.5);
+}
+/**********Footer********************/
+footer{
+   padding: 237px 0 75px 0;
+    background: #EFE3D5;
+    position: relative;
+    z-index: 1;
+}
+footer .container{
+    width: 80%;
+    margin: 0 auto;
+}
+footer .flex-grid{
+    width: 100%;
+    color: #726A61;
+}
+.logo-widget img{
+    width: 300px;
+    height: 31px;
+}
+.logo-widget p{
+    margin-top: 15px;
+}
